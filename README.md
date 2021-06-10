@@ -18,7 +18,7 @@ Qualquer dúvida que tenha, basta entrar em contato conosco que teremos o maior 
 
 ### Critérios para avaliação
 - Organização de código, arquitetura e boas práticas de programação (SOLID, Clean Code, etc)
-- Como foi a utilização dos framework e bibliotecas utilizados e da linguagem de programação
+- Como foi a utilização dos frameworks e bibliotecas utilizados e da linguagem de programação
 - Comunicação entre as aplicações (frontend e backend) deverá ocorrer através do protocolo HTTP com chamadas Rest utilizando o formato JSON
 - Documentação de como executar os projetos no ambiente local
 - Implementação de testes de unidade (diferencial)
@@ -34,12 +34,14 @@ Qualquer dúvida que tenha, basta entrar em contato conosco que teremos o maior 
 - Criar uma página com formulário para inclusão da lista de TODOs. A página deverá conter:
   - Campo de input para inserir a descrição
   - Botão para cadastrar
-- Na mesma página, criar uma tabela para visualizar os itens já cadastrados. A tabela deverá permitir realizar as seguintes ações para cada item:
+- Na mesma página, crie uma tabela para visualizar os itens já cadastrados. A tabela deverá possuir as seguintes ações para cada item:
   - Botão para editar o texto
   - Botão para excluir o item
-  - Botão para marcar o item como finalizado
+  - Botão para finalizar o item
 - Os itens finalizados deverão ser apresentados em uma cor diferente dos demais itens na lista
-- Criar uma opção para selecionar os itens da lista e um botão para finalizar todos com uma única ação
+- Criar uma opção para selecionar todos os itens da lista e um botão para finalizar todos com uma única ação
+
+Abaixo pode ser visto um wireframe de como essa tela pode ser construída:
 
 ![Wireframe TODO List App](./images/wireframe-todolist-app.png)
 
@@ -48,12 +50,12 @@ Qualquer dúvida que tenha, basta entrar em contato conosco que teremos o maior 
 
 - Faça o setup de um novo projeto
 - Criar APIs Rest para as seguintes operações:
-  - Salvar / atualizar um item
+  - Salvar / Atualizar um item
     - Poderá ser utilizado também para mudar o status do item para finalizado
   - Excluir um item
   
 
-**Obs.:** A persistência das informações pode ser em memória ou em um banco de dados, fica a seu critério conforme se sentir mais confortável em atuar.
+**Obs.:** A persistência das informações pode ser em memória ou em um banco de dados, fica a seu critério definir o que é mais confortável para implementar.
 
 ## Considerações finais
 
