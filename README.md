@@ -45,17 +45,21 @@ Abaixo pode ser visto um wireframe de como essa tela pode ser construída:
 
 ![Wireframe TODO List App](./images/wireframe-todolist-app.png)
 
-
 ### Backend
 
 - Faça o setup de um novo projeto
 - Criar APIs Rest para as seguintes operações:
+  - Listar os itens salvos
   - Salvar / Atualizar um item
     - Poderá ser utilizado também para mudar o status do item para finalizado
   - Excluir um item
   
 
 **Obs.:** A persistência das informações pode ser em memória ou em um banco de dados, fica a seu critério definir o que é mais confortável para implementar.
+
+## Bônus Frontend
+
+Como bônus, caso queira exercitar ainda mais os recursos do framework escolhido, implemente também a busca por itens já finalizados e a ordenação na tabela para a coluna "Tarefa".
 
 ## Considerações finais
 
